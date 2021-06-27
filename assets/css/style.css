@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #eb0e0e;
+    --primary-color: red;
     --secondary-color: #070614;
     --tertiary-color: #f4f4fa;
   }
@@ -95,31 +95,189 @@
       text-shadow: none;
   }
 
+  /*Header styles end*/
+
+  /* FOOTER STYLES START */
+  footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  
+  footer h2 {
+    color: var(--tertiary-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  /* END FOOTER STYLES */
+
+  /*Hero Styles Start*/
+  .hero {
+    background-image: url('../Images/153rd\ c130.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 20vw;
+  }
+
+  .hero h2 {
+      margin: 3vw ;
+  }
+
   .about-me {
       display: flex;
-      justify-content: space-evenly;
+      flex-wrap: wrap;
+      justify-content: space-around;
       margin: 30px auto;
       color: var(--tertiary-color);
       width: 80%;
       background:var(--secondary-color);
   }
 
-  .about-me .left {
-      align-items: flex-start;
-      min-width: 20%;
+  .about-me h2 {
+      font-size: 3vw;
       border-right: 2px solid var(--primary-color);
-  }
-
-  .about-me .left h2 {
-      font-size: 2vw;
-      padding: 0px 0px auto auto;
+      padding-right: 20px;
+      width: 12vw;
       text-align: right;
   }
 
   .about-me .right {
-      min-width: none;
-      padding-left: 20px;
+      width: 70%;
   }
   .about-me .right p {
       font-size: 1.55vw;
   }
+
+  .work {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+    color: var(--tertiary-color);
+    width: 80%;
+    background:var(--secondary-color);
+}
+
+.work h2 {
+    font-size: 3vw;
+    border-right: 2px solid var(--primary-color);
+    padding-right: 20px;
+    width: 12vw;
+    text-align: right;
+}
+
+
+
+.work .right {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work .right .break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.work .right h3 {
+    font-size: 1.25vw;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    padding-bottom: 5px;
+}
+
+.work .right p {
+    color: var(--tertiary-color);
+    font-size: 0.9vw;
+}
+
+.work .right div {
+    border: thick solid var(--primary-color);
+}
+
+.work .right .main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-image: url('../Images/surfreport.jpg');
+    background-size: cover;
+    background-position: 80%;
+    align-items: flex-end;
+}
+
+.work .right .secondary {
+    display: flex;
+    margin-top: 10px;
+    width: 49%;
+    height: 125px;
+    flex-direction: row;
+    background-size: cover;
+    background-position: 80%;
+    align-items: flex-end;
+}
+
+.work .right .calc{
+    background-image: url('../Images/surfreport.jpg');
+}
+
+.work .right div div {
+    border: thick solid var(--primary-color);
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 70px;
+    width: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* Conact Me Section */
+
+.contact-me {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+    color: var(--tertiary-color);
+    width: 80%;
+    background:var(--secondary-color);
+}
+
+.contact-me h2 {
+    font-size: 3vw;
+    border-right: 2px solid var(--primary-color);
+    padding-right: 20px;
+    width: 12vw;
+    text-align: right;
+}
+
+.contact-me .right {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-me .right a {
+    font-size: 1.55vw;
+    text-decoration: underline;
+    color: var(--tertiary-color);
+}
