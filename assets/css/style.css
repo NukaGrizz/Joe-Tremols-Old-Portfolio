@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: 100px;
+    scroll-padding-top: 7vw;
 }
 
 :root {
@@ -39,12 +39,12 @@ html {
   header .left {
       text-decoration: none;
       color: var(--tertiary-color);
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+      text-shadow: 0 0 10px rgb(255, 255, 255, 0.5)
   }
 
   .left {
       display: flex;
-      justify-content: space-between;
+      justify-content: right;
       align-items: center;
       background-color: var(--secondary-color);
       width: 40%;
@@ -53,26 +53,23 @@ html {
   }
 
   .left h1 {
-      flex: 1 50%;
+      text-align: start;
       padding-left: 20px;
-  }
-
-  .left h1 a{
       font-weight: bold;
       margin: 0;
-      font-size: 4vw;
+      font-size: 2.5vw;
       
   }
 
   .left img {
-      width: 10%;
       border-radius: 50%;
-      flex: .1 5%;
-      min-width: 80px;  
+      height: 7vw;
+      min-height: 90px;
   }
 
   header nav {
-      margin: 7px 0;
+      margin: 0;
+      align-content: center;
   }
 
   header nav ul {
@@ -91,6 +88,7 @@ html {
       font-weight: lighter;
       color: var(--tertiary-color);
       background-color: transparent;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
   }
 
   header nav ul li a:hover {
@@ -142,6 +140,7 @@ html {
 
   .hero h2 {
       margin: 3vw;
+      font-size: 2vw;
   }
 
   .about-me {
@@ -154,11 +153,11 @@ html {
       background:var(--secondary-color);
   }
 
-  .about-me h2 {
+  .about-me h3 {
       font-size: 3vw;
       border-right: 2px solid var(--primary-color);
       padding-right: 20px;
-      width: 12vw;
+      width: 13vw;
       text-align: right;
   }
 
@@ -171,7 +170,7 @@ html {
 
   .work {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px auto;
     color: var(--tertiary-color);
@@ -179,11 +178,11 @@ html {
     background:var(--secondary-color);
 }
 
-.work h2 {
+.work h3 {
     font-size: 3vw;
     border-right: 2px solid var(--primary-color);
     padding-right: 20px;
-    width: 12vw;
+    width: 13vw;
     text-align: right;
 }
 
@@ -199,8 +198,6 @@ html {
     height: 0;
 }
 
-
-
 .work .right a {
     border: thick solid var(--primary-color);
 }
@@ -209,7 +206,7 @@ html {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 300px;
+    height: 20vw;
     background-image: url('../Images/RunBuddy\ dark.png');
     background-size: cover;
     background-position: left top;
@@ -279,25 +276,25 @@ html {
     margin-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    justify-content: center;
 }
 
-.work .right h3 {
-    font-size: 1.25vw;
+.work .right h4 {
+    font-size: 1.55vw;
     text-decoration: none;
     color: var(--tertiary-color);
 }
 
 .work p {
     color: var(--tertiary-color);
-    font-size: 0.9vw;
+    font-size: 1.25vw;
 }
-
 
 /* Conact Me Section */
 
 .contact-me {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px auto;
     color: var(--tertiary-color);
@@ -305,20 +302,22 @@ html {
     background:var(--secondary-color);
 }
 
-.contact-me h2 {
+.contact-me h3 {
     font-size: 3vw;
     border-right: 2px solid var(--primary-color);
     padding-right: 20px;
-    width: 12vw;
+    width: 13vw;
     text-align: right;
 }
 
 .contact-me .right {
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
 .contact-me .right a {
     font-size: 1.55vw;
     text-decoration: underline;
@@ -327,4 +326,165 @@ html {
 
 .contact-me .right a:hover {
     color: var(--primary-color);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    html {
+        scroll-padding-top: 0px;
+    }
+
+    header {
+        padding: 0px;
+        justify-content: center;
+        position: relative;
+    }
+  
+    .left {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .left h1 {
+        padding-left: 20px;
+        min-width: 200px;
+        font-size: 30px;
+    }
+  
+    header nav ul {
+        margin: 20px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+  
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h2 {
+        margin: 0;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .about-me h3 {
+        width: 130px;
+        font-size: 25px;
+    }
+
+    .work h3 {
+        width: 130px;
+        font-size: 25px;
+    }
+
+    .contact-me h3 {
+        width: 130px;
+        font-size: 25px;
+    }
+
+    .about-me .right p {
+        font-size: 18px;
+    }
+
+    .contact-me .right {
+        justify-content: left;
+    }
+
+    .work .right .main {
+        height: 150px;
+    }
+
+    .work .right h4 {
+        font-size: 16px;
+    }
+
+    .work p {
+        font-size: 12px;
+    }
+
+    .contact-me .right a {
+        flex: 0 100%;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .hero h2 {
+        font-size: 15px;
+    }
+
+    .about-me {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px  
+    }
+
+    .about-me h3 {
+        flex: 0 80%;
+        text-align: center;
+        border-bottom: 2px solid var(--primary-color);
+        border-right: none;
+        
+    }
+    
+    .about-me .right {
+        padding-top: 30px;
+    }
+    
+    .work {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        padding-top: 20px  
+    }
+
+    .work h3 {
+        flex: 0 80%;
+        border-bottom: 2px solid var(--primary-color);
+        border-right: none;
+        text-align: center;
+        padding-right: 0px;
+    }
+    
+    .work .right {
+        padding-top: 30px;
+    }
+
+
+    .contact-me {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+
+    .contact-me h3 {
+        flex: 0 80%;
+        text-align: center;
+        border-bottom: 2px solid var(--primary-color);
+        border-right: none;
+        padding-right: 0px;
+    }
 }
