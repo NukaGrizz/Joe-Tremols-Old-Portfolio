@@ -14,7 +14,7 @@ https://nukagrizz.github.io/Joe-Tremols-Portfolio/
 
 
 ## Screenshot
-![Screenshot](./screenshots/screenshot-of-portfolio.png)
+![Screenshot](./screenshot-of-portfolio.png)
 
 ## Contribution
 Made by NukaGrizz aka.Joe Tremols
