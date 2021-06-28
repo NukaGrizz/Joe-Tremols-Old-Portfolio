@@ -80,10 +80,7 @@ html {
     header nav ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
         list-style: none;
-        background-color: transparent;
     }
 
     header nav ul li a {
@@ -188,7 +185,7 @@ html {
         margin: 30px auto;
         color: var(--tertiary-color);
         width: 80%;
-        background:var(--secondary-color);
+        background: var(--secondary-color);
     }
 
     .work h3 {
@@ -437,6 +434,17 @@ html {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+    nav ul li {
+        padding: 10px 0px;
+        text-align: center;
+        flex: 0 100%;
+    }
 
     .hero h2 {
         font-size: 15px;
