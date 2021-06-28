@@ -1,3 +1,4 @@
+/* Site Wide Style Start */
 html {
     scroll-padding-top: 7vw;
 }
@@ -21,6 +22,8 @@ html {
       background-color: var(--secondary-color);
   }
 
+  /* Site Wide Style End */
+
   /* HEADER / NAV BAR STYLES START */
 
   header {
@@ -35,68 +38,71 @@ html {
       align-items: center;
       z-index: 9999;
   }
-  
-  header .left {
-      text-decoration: none;
-      color: var(--tertiary-color);
-      text-shadow: 0 0 10px rgb(255, 255, 255, 0.5)
-  }
+    /* Header logo and site title */
+    header .left {
+        text-decoration: none;
+        color: var(--tertiary-color);
+        text-shadow: 0 0 10px rgb(255, 255, 255, 0.5)
+    }
 
-  .left {
-      display: flex;
-      justify-content: right;
-      align-items: center;
-      background-color: var(--secondary-color);
-      width: 40%;
-      padding: 0px 35px;
+    .left {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--secondary-color);
+        width: 40%;
+        padding: 0px 35px;
 
-  }
+    }
 
-  .left h1 {
-      text-align: start;
-      padding-left: 20px;
-      font-weight: bold;
-      margin: 0;
-      font-size: 2.5vw;
-      
-  }
+    .left h1 {
+        text-align: start;
+        padding-left: 20px;
+        font-weight: bold;
+        margin: 0;
+        font-size: 2.5vw;
+        
+    }
 
-  .left img {
-      border-radius: 50%;
-      height: 7vw;
-      min-height: 90px;
-  }
+    .left img {
+        border-radius: 50%;
+        height: 7vw;
+        min-height: 90px;
+    }
+    /* Header logo and Site Title End */
 
-  header nav {
-      margin: 0;
-      align-content: center;
-  }
+    /* Header Nav Styles Start */
+    header nav {
+        margin: 0;
+        align-content: center;
+    }
 
-  header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-      background-color: transparent;
-  }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        background-color: transparent;
+    }
 
-  header nav ul li a {
-      padding: 10px 15px;
-      font-size: 1.75vw;
-      text-decoration: none;
-      font-weight: lighter;
-      color: var(--tertiary-color);
-      background-color: transparent;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
-  }
+    header nav ul li a {
+        padding: 10px 15px;
+        font-size: 1.75vw;
+        text-decoration: none;
+        font-weight: lighter;
+        color: var(--tertiary-color);
+        background-color: transparent;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    }
 
-  header nav ul li a:hover {
-      background-color: var(--secondary-color);
-      color: var(--primary-color);
-      border-radius: 15px;
-      text-shadow: none;
-  }
+    header nav ul li a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border-radius: 15px;
+        text-shadow: none;
+    }
+    /* Header Nav Styles End */
 
   /*Header styles end*/
 
@@ -142,191 +148,199 @@ html {
       margin: 3vw;
       font-size: 2vw;
   }
+  /* Hero Styles End */
+  
+  /* Main styles start */
 
-  .about-me {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin: 30px auto;
-      color: var(--tertiary-color);
-      width: 80%;
-      background:var(--secondary-color);
-  }
+    /* About ME Styles Start */
+    .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 30px auto;
+        color: var(--tertiary-color);
+        width: 80%;
+        background:var(--secondary-color);
+    }
 
-  .about-me h3 {
-      font-size: 3vw;
-      border-right: 2px solid var(--primary-color);
-      padding-right: 20px;
-      width: 13vw;
-      text-align: right;
-  }
+    .about-me h3 {
+        font-size: 3vw;
+        border-right: 2px solid var(--primary-color);
+        padding-right: 20px;
+        width: 13vw;
+        text-align: right;
+    }
 
-  .about-me .right {
-      width: 70%;
-  }
-  .about-me .right p {
-      font-size: 1.55vw;
-  }
+    .about-me .right {
+        width: 70%;
+    }
+    .about-me .right p {
+        font-size: 1.55vw;
+    }
+    /* About Me Styles End */
 
-  .work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 30px auto;
-    color: var(--tertiary-color);
-    width: 80%;
-    background:var(--secondary-color);
-}
+    /* Work Styles Start */
 
-.work h3 {
-    font-size: 3vw;
-    border-right: 2px solid var(--primary-color);
-    padding-right: 20px;
-    width: 13vw;
-    text-align: right;
-}
+    .work {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 30px auto;
+        color: var(--tertiary-color);
+        width: 80%;
+        background:var(--secondary-color);
+    }
 
-.work .right {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    .work h3 {
+        font-size: 3vw;
+        border-right: 2px solid var(--primary-color);
+        padding-right: 20px;
+        width: 13vw;
+        text-align: right;
+    }
 
-.work .right .break {
-    flex-basis: 100%;
-    height: 0;
-}
+    .work .right {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-.work .right a {
-    border: thick solid var(--primary-color);
-}
+    .work .right .break {
+        flex-basis: 100%;
+        height: 0;
+    }
 
-.work .right .main {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 20vw;
-    background-image: url('../Images/RunBuddy\ dark.png');
-    background-size: cover;
-    background-position: left top;
-    align-items: flex-end;
-}
+    .work .right a {
+        border: thick solid var(--primary-color);
+    }
 
-.work .right .main:hover {
-    background-image: url('../Images/RunBuddy.png');
-}
+    .work .right .main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 20vw;
+        background-image: url('../Images/RunBuddy\ dark.png');
+        background-size: cover;
+        background-position: left top;
+        align-items: flex-end;
+    }
 
-.work .right .secondary {
-    display: flex;
-    margin-top: 10px;
-    width: 49%;
-    height: 125px;
-    flex-direction: row;
-    align-items: flex-end;
-    
-}
+    .work .right .main:hover {
+        background-image: url('../Images/RunBuddy.png');
+    }
 
-.work .right .horiseon {
-    background-image: url('../Images/horsieon\ dark.png');
-    background-size: cover;
-    background-position: left top;
-}
+    .work .right .secondary {
+        display: flex;
+        margin-top: 10px;
+        width: 49%;
+        height: 125px;
+        flex-direction: row;
+        align-items: flex-end;
+        
+    }
 
-.work .right .horiseon:hover {
-    background-image: url('../Images/horsieon.png');
-}
+    .work .right .horiseon {
+        background-image: url('../Images/horsieon\ dark.png');
+        background-size: cover;
+        background-position: left top;
+    }
 
-.work .right .robot {
-    background-image: url('../Images/robot-gladiators\ dark.png');
-    background-size: cover;
-    background-position: left top;
-}
+    .work .right .horiseon:hover {
+        background-image: url('../Images/horsieon.png');
+    }
 
-.work .right .robot:hover {
-    background-image: url('../Images/robot-gladiators.png');
-}
+    .work .right .robot {
+        background-image: url('../Images/robot-gladiators\ dark.png');
+        background-size: cover;
+        background-position: left top;
+    }
 
-.work .right .portfolio {
-    background-image: url('../Images/JoePortfolio\ dark.png');
-    background-size: cover;
-    background-position: left top;
-}
+    .work .right .robot:hover {
+        background-image: url('../Images/robot-gladiators.png');
+    }
 
-.work .right .portfolio:hover {
-    background-image: url('../Images/JoePortfolio.png');
-}
+    .work .right .portfolio {
+        background-image: url('../Images/JoePortfolio\ dark.png');
+        background-size: cover;
+        background-position: left top;
+    }
 
-.work .right .streamguard {
-    background-image: url('../Images/StreamGuard\ dark.png');
-    background-size: cover;
-    background-position: left top;
-}
+    .work .right .portfolio:hover {
+        background-image: url('../Images/JoePortfolio.png');
+    }
 
-.work .right .streamguard:hover {
-    background-image: url('../Images/StreamGuard.png');
-}
+    .work .right .streamguard {
+        background-image: url('../Images/StreamGuard\ dark.png');
+        background-size: cover;
+        background-position: left top;
+    }
 
-.work .right a div {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 0, 0, 1);
-    height: 70px;
-    width: auto;
-    margin-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    justify-content: center;
-}
+    .work .right .streamguard:hover {
+        background-image: url('../Images/StreamGuard.png');
+    }
 
-.work .right h4 {
-    font-size: 1.55vw;
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
+    .work .right a div {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 0, 0, 1);
+        height: 70px;
+        width: auto;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        justify-content: center;
+    }
 
-.work p {
-    color: var(--tertiary-color);
-    font-size: 1.25vw;
-}
+    .work .right h4 {
+        font-size: 1.55vw;
+        text-decoration: none;
+        color: var(--tertiary-color);
+    }
 
-/* Conact Me Section */
+    .work p {
+        color: var(--tertiary-color);
+        font-size: 1.25vw;
+    }
+    /* Work Styles End */
 
-.contact-me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 30px auto;
-    color: var(--tertiary-color);
-    width: 80%;
-    background:var(--secondary-color);
-}
+    /* Conact Me Section */
+    .contact-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 30px auto;
+        color: var(--tertiary-color);
+        width: 80%;
+        background:var(--secondary-color);
+    }
 
-.contact-me h3 {
-    font-size: 3vw;
-    border-right: 2px solid var(--primary-color);
-    padding-right: 20px;
-    width: 13vw;
-    text-align: right;
-}
+    .contact-me h3 {
+        font-size: 3vw;
+        border-right: 2px solid var(--primary-color);
+        padding-right: 20px;
+        width: 13vw;
+        text-align: right;
+    }
 
-.contact-me .right {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
+    .contact-me .right {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.contact-me .right a {
-    font-size: 1.55vw;
-    text-decoration: underline;
-    color: var(--tertiary-color);
-}
+    .contact-me .right a {
+        font-size: 1.55vw;
+        text-decoration: underline;
+        color: var(--tertiary-color);
+    }
 
-.contact-me .right a:hover {
-    color: var(--primary-color);
-}
+    .contact-me .right a:hover {
+        color: var(--primary-color);
+    }
+    /* Contact Styles End */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
