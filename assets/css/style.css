@@ -1,6 +1,6 @@
 /* Site Wide Style Start */
 html {
-    scroll-padding-top: 7vw;
+    scroll-padding-top: 11vw;
 }
 
 :root {
@@ -404,10 +404,6 @@ html {
         font-size: 18px;
     }
 
-    .contact-me .right {
-        justify-content: left;
-    }
-
     .work .right .main {
         height: 150px;
     }
@@ -420,10 +416,14 @@ html {
         font-size: 12px;
     }
 
+    .contact-me .right {
+        justify-content: left;
+    }
+
     .contact-me .right a {
         flex: 0 100%;
         font-size: 16px;
-        padding: 20px;
+        padding: 15px 0px;
     }
 
     footer h2, footer div {
