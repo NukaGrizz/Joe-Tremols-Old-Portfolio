@@ -10,11 +10,11 @@ Personal Portfolio of Joe Tremols
 * CSS
 
 ## Website
-https://nukagrizz.github.io/Horiseon-Social-Solution-Services/
+https://nukagrizz.github.io/Joe-Tremols-Portfolio/
 
 
 ## Screenshot
-![Screenshot](./screenshots/Joe-Tremols-Portfolio-screenshot.png)
+![Screenshot](./assets/screenshots/screenshot-of-portfolio.png)
 
 ## Contribution
 Made by NukaGrizz aka.Joe Tremols
