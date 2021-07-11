@@ -1,7 +1,5 @@
 # Joe-Tremols-Portfolio
 
-# Horiseon Social Solution Services
-
 ## Purpose
 Personal Portfolio of Joe Tremols
 
