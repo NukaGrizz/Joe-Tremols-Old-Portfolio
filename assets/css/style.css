@@ -258,13 +258,13 @@ html {
     }
 
     .work .right .portfolio {
-        background-image: url('../Images/JoePortfolio\ dark.png');
+        background-image: url('../Images/Read-My-Lips-screenshot\ dark.png');
         background-size: cover;
         background-position: left top;
     }
 
     .work .right .portfolio:hover {
-        background-image: url('../Images/JoePortfolio.png');
+        background-image: url('../Images/Read-My-Lips-screenshot.png');
     }
 
     .work .right .streamguard {
