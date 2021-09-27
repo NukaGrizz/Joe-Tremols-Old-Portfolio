@@ -211,7 +211,7 @@ html {
     .work .right a {
         border: thick solid var(--primary-color);
     }
-
+ 
     .work .right .main {
         display: flex;
         flex-direction: row;
